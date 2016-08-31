@@ -33,8 +33,8 @@ describe "Viewing todo items" do
 	    expect(page.all("ul.todo_items li").size).to eq(2)
 	    
 	    within "ul.todo_items" do
-	      expect(page).to have_content("Milk")
-	      expect(page).to have_content("Eggs")
+	    expect(page).to have_content("Milk")
+	    expect(page).to have_content("Eggs")
 	  end
     end
 end
