@@ -35,19 +35,33 @@ div.flash.notice {
 
 div.nav {
   border-bottom: 1px solid #aaa;
-  margin-bottom: 20px;
-  padding: 10px 0 0 5px;
+  margin-bottom: 0;
+  padding: 2em 2em 2em 5em;
+  background-color: #FF7212;
+  position: relative;
+  
+}
+
+div.nav img {
+  float: left;
+  margin: 0 0 0 0;
 }
 
 div.nav h1 {
   float: left;
-  margin: 0 1em 0 0;
+  margin: 17px 1em 0 0;
+  font-size: 40px;
+}
+
+div.nav h1 a {
+  color: #FFFFFF;
+
 }
 
 div.nav a { text-decoration: none !important; }
 
 div.nav ul {
-  float: left;
+  float: right;
   list-style: none;
   clear: right;
   margin: 0 0 0 1em;
@@ -55,18 +69,24 @@ div.nav ul {
 }
 
 div.nav ul li {
-  float: left;
+  float: right;
 }
 
 div.nav ul li a {
   display: block;
   width: auto;
-  padding: 8px 10px 8px 10px;
-  background: #eee;
-  color: #aaa;
+  padding: 8px 10px 8px 50px;
+  color: #FFFFFF;
+  float: right; 
+  font-size: 25px; 
 }
 
 div.nav ul li a:hover {
-  background: #aaa;
+  background: #CB5404;
   color: #eee;
+}
+
+div.nav section.social {
+  position: absolute; left: 84em; top: 70px;
+
 }

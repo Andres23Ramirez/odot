@@ -1,11 +1,36 @@
 // Place all the styles related to the todo_lists controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+a {
+  text-decoration: none;
+}
+
+p.importante {
+  padding-right: 20px;
+  margin: 5px 5px 5px 5px;
+  
+}
+
+p.importante a {
+  font-weight: bold; font-size: 1.3em;
+  float: right;
+  border: 1px solid #312929;
+  background: #FF7212;
+  padding: 5px 5px 5px 5px;
+  color: #FFFFFF
+}
+
+p.importante a:hover {
+  background: #CB5404;
+  color: #eee;
+}
+
 div.todo_list {
-  border: 1px solid #eee;
+  border: 3px solid #312929;
   border-radius: 4px;
   margin: 1em 0 1em 0;
   padding: 2em;
+  background: #F1F1F1;
 
   ul.functions {
     margin: 1em 0 0 0;
@@ -21,4 +46,19 @@ div.todo_list {
       float: left;
     }
   }
+}
+
+div.todo_list_title {
+
+  background: #F1F1F1;
+  border: 1px solid #312929;
+  height: 5em;
+  margin: 2px 0 0 0;
+  font-size: 15px;
+
+  h1 {
+    padding: 15px 0 0 0;
+    text-align: center;
+  }
+
 }

@@ -9,10 +9,29 @@
 <body>
 
   <div class="nav">
-    <h1><%= link_to "Odot", root_path %></h1>
+  <%= image_tag "icono.png", alt: "icono", title:"icono" %>
+
+    <h1>
+      <%= link_to "Odot", root_path %>
+    </h1>
+
+
+
     <ul>
-      <li><%= link_to "Todo Lists", todo_lists_path %></li>
+      <li>
+        <%= link_to "Todo Lists", todo_lists_path %>  
+      </li>
     </ul>
+
+      <section class="social">
+        <%= image_tag "facebook.png", alt: "facebook", title:"icono" %>
+        <%= image_tag "google.png", alt: "google", title:"icono" %>
+        <%= image_tag "instagram.png", alt: "instagram", title:"icono" %>
+        <%= image_tag "linkedin.png", alt: "linkedin", title:"icono" %>
+        <%= image_tag "twitter.png", alt: "twitter", title:"icono" %>
+        <%= image_tag "youtube.png", alt: "youtube", title:"icono" %>
+      </section>
+
     <br class="clear" />
   </div>
 
@@ -25,4 +44,11 @@
 <%= yield %>
 
 </body>
+
+<footer>
+  
+</footer>
+
+
 </html>
+ 

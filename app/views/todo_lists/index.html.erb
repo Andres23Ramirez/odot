@@ -1,4 +1,6 @@
-<h1>Todo Lists</h1>
+<div class="todo_list_title">
+	<h1>Todo Lists</h1>
+</div>
 
 
 <% @todo_lists.each do |todo_list| %>
@@ -17,4 +19,4 @@
 
 <br>
 
-<%= link_to 'New Todo list', new_todo_list_path %>
+<p class="importante"><%= link_to 'New Todo list', new_todo_list_path %></p>
