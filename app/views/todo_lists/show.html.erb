@@ -1,11 +1,14 @@
-<h1><%= @todo_list.title %></h1>
+<div class="todo_list_title"><h1><%= @todo_list.title %></h1>
+</div>
 
-<h2><%= @todo_list.description %></h2>
+<h2 class="contenido">
+	<%= @todo_list.description %>
+</h2>
 
 <% if @todo_list.has_incompleted_items? %>
-<h3>Incomplete Items:</h3>
+<h3 class="bordear">Incomplete Items:</h3>
 
-<ul>
+<ul class="bordear">
   <% @todo_list.todo_items.incomplete.each do |todo_item| %>
   <li><%= todo_item.content %></li>
   <% end %>
@@ -13,9 +16,9 @@
 <% end %>
 
 <% if @todo_list.has_completed_items? %>
-<h3>Complete Items:</h3>
+<h3 class="bordear">Complete Items:</h3>
 
-<ul>
+<ul class="bordear">
   <% @todo_list.todo_items.complete.each do |todo_item| %>
   <li><%= todo_item.content %></li>
   <% end %>

@@ -62,3 +62,34 @@ div.todo_list_title {
   }
 
 }
+
+div.form_todo_list {
+  background: #F1F1F1;
+  border: 1px solid #312929;
+  margin: 2px 0 0 0;
+  padding-left: 40em;
+  padding-top: 20px;
+
+  textarea {
+    width:225px;
+    height:100px;
+  }
+
+}
+
+.actions {
+  float: right;
+  margin-right: 25px;
+  margin-top: 5px;
+}
+
+.contenido {
+  background: #F1F1F1;
+  border: 1px solid #312929;
+  width:100%;
+  height:200px;
+}
+.bordear {
+  background: #F1F1F1;
+  border: 1px solid #312929;
+}

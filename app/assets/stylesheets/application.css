@@ -90,3 +90,18 @@ div.nav section.social {
   position: absolute; left: 84em; top: 70px;
 
 }
+
+div.todo_list_title {
+
+  background: #F1F1F1;
+  border: 1px solid #312929;
+  height: 5em;
+  margin: 2px 0 0 0;
+  font-size: 15px;
+
+  h1 {
+    padding: 15px 0 0 0;
+    text-align: center;
+  }
+
+}

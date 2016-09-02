@@ -9,3 +9,52 @@ table.todo_items {
     text-align: left;
   }
 }
+
+
+
+
+table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+}
+
+td a {
+color: #777777;
+}
+
+
+
+thead.todo_head {
+	background: #F1F1F1;
+}
+
+
+
+ a {
+  display: block;
+  width: auto;
+  padding: 8px 10px 8px 50px;
+  color: #FFFFFF;
+  float: right; 
+  font-size: 25px; 
+	}
+div.todo_list_title {
+
+  background: #F1F1F1;
+  border: 1px solid #312929;
+  height: 5em;
+  margin: 2px 0 0 0;
+  font-size: 15px;
+
+  h1 {
+    padding: 15px 0 0 0;
+    text-align: center;
+  }
+
+}
